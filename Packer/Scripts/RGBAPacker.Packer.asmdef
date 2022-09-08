@@ -1,0 +1,16 @@
+{
+    "name": "RGBAPacker.Packer",
+    "rootNamespace": "",
+    "references": [
+        "GUID:5150c07c6601041078cd8ae3592746e3"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
