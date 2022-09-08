@@ -15,7 +15,7 @@ namespace RGBAPacker
         public bool isChannelGreenInverted = false;
         public bool isChannelBlueInverted = false;
         public bool isChannelAlphaInverted = false;
-        public Vector2Int packedTextureResolution = new Vector2Int(128,128);
+        public Vector2Int packedTextureResolution = new Vector2Int(1024,1024);
 
         public Texture2D calculatePackedTexture()
         { 

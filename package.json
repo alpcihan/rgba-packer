@@ -1,11 +1,12 @@
 {
   "author": "Alp Cihan",
-  "dependencies": { },
   "description": "Simple RGBA texture packer",
   "displayName": "RGBA Packer",
-  "keywords": [ "unity" ],
+  "keywords": [
+    "unity"
+  ],
   "name": "com.alpcihan.rgba-packer",
   "unity": "2019.1",
   "unityRelease": "0b5",
-  "version": "1.0.0"
+  "version": "0.0.1"
 }

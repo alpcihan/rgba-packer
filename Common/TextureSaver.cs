@@ -5,8 +5,6 @@ namespace RGBAPacker.Common
 {
     public class TextureSaver
     {
-        static int count = 0;
-
         public static bool saveTextureAsPNG(ref Texture2D texture)
         {
             byte[] bytes = texture.EncodeToPNG();
@@ -16,7 +14,7 @@ namespace RGBAPacker.Common
                 Directory.CreateDirectory(dirPath);
             }
 
-            File.WriteAllBytes(dirPath + "packed-image" + count.ToString() + ".png", bytes);
+            File.WriteAllBytes(dirPath + "packed.png", bytes);
 
             return true;
         }
